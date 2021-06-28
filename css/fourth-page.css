@@ -20,7 +20,7 @@ body{
     width: 360px;
     margin: 3vh auto;
     border:1px solid var(--gray);
-    background-image: url('../images/backgrounn-image.png');
+    background-image: url('../images/background-images-fourth.png');
     background-size: cover;
     filter: blur(5px);
     
