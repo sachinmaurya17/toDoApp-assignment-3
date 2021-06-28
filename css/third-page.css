@@ -22,7 +22,7 @@ body{
     border:1px solid var(--gray);
     background-image: url('../images/backgrounn-image.png');
     background-size: cover;
-    filter: blur(4px);
+    filter: blur(3px);
     
 }
 
