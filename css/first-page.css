@@ -1,0 +1,77 @@
+
+html{
+    --black:rgb(41, 39, 39);
+    --gray:gray;
+    --orangelight:rgb(253, 41, 25);
+    --white:#fff;
+    --darkorange:rgb(252, 22, 6);
+    --lightgray:rgba(230, 228, 228, 0.466);
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--lightgray);
+    letter-spacing: 0.5;
+}
+
+/* ********* container-fluid start ********* */
+.conatiner-fluid{
+   height: 640px;
+   width: 360px;
+   margin: 3vh auto;
+   background-color: var(--white);
+   display: flex;
+   flex-direction: column;
+   border:1px solid var(--gray)
+}
+
+/* **** text-display flex row wise **** */
+.conatiner-fluid .text-writting{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-between;
+    margin:0 20px 0px 10px;      
+}
+
+/* **** h1 style ***** */
+h1{
+    color: var(--gray);
+    font-size: 40px;
+    font-weight: 100;
+    word-spacing: 0.6;
+}
+
+/* ********** plus box decoration ******  */
+.text-container__bolder{
+    font-weight: 700;
+    color: var(--black);
+}
+
+.text-container_plus{
+    
+    background-color: var(--orangelight);
+    margin-right:10px ;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    color: var(--white);
+    text-align: center;
+    font-size: 20px;
+}
+.card{
+    height: 70px;
+    width: 90%;
+    margin: 15px auto;
+    box-shadow: 4px 4px 5px var(--lightgray);
+    border:1px solid var(--orangelight);
+    border-radius: 10px;
+}
+h2{
+    font-size: 25px;
+    color: var(--gray);
+    font-weight: 300;
+    padding:0 20px;
+}
